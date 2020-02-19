@@ -15,7 +15,6 @@ function BarChart() {
     let usersSpeed = [];
 
     data.forEach((elem) => {
-      let totalTime = 0;
       let points = elem.points;
 
       points.sort(function(a, b) {
@@ -37,9 +36,8 @@ function BarChart() {
     let speed = 0;
     for(let i = 0; i < points.length; i++)
       {
-         let previous = points[i - 1];
          let next = points[i + 1];
-         if(next != undefined){
+         if(next !== undefined){
             distance += Math.sqrt( Math.pow((points[i].x - next.x), 2) + Math.pow((points[i].y - next.y), 2) );
          }
       }

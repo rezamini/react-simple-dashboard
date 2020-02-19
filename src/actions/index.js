@@ -29,24 +29,10 @@ export const setScatterSeries = (dataSeries) => {
   };
 };
 
-export const setScatterOption = (labels) => {
-  return {
-    type: SET_SCATTER_OPTION,
-    payload: labels
-  };
-};
-
 export const setLineSeries = (dataSeries) => {
   return {
     type: SET_LINE_SERIES,
     payload: dataSeries
-  };
-};
-
-export const setLineOption = (labels) => {
-  return {
-    type: SET_LINE_OPTION,
-    payload: labels
   };
 };
 
@@ -70,3 +56,17 @@ export const setCardValues = (labels) => {
     payload: labels
   };
 };
+
+// export const setScatterOption = (labels) => {
+//   return {
+//     type: SET_SCATTER_OPTION,
+//     payload: labels
+//   };
+// };
+
+// export const setLineOption = (labels) => {
+//   return {
+//     type: SET_LINE_OPTION,
+//     payload: labels
+//   };
+// };

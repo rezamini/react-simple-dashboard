@@ -39,7 +39,7 @@ function App() {
         </Col>
       </Row>
       <br /> <br />
-      <Row>
+      <Row className="col-md-offset-10">
         <Col>
           <BarChart />
         </Col>

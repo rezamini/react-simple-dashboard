@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setLineSeries, setLineOption } from '../../actions';
+import { setLineSeries } from '../../actions';
 import data from '../../data/users.json';
 import Chart from "react-apexcharts";
 import Card from 'react-bootstrap/Card';
