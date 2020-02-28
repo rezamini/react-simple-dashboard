@@ -18,19 +18,19 @@ function Dashboard() {
         <Cards />
         <br /> <br />
         <Row>
-          <Col lg="6" md="6" sm="12">
+          <Col lg="6" md="6" sm="12" >
             <ScatterChart />
           </Col>
-          <Col lg="6" md="6" sm="12">
+          <Col lg="6" md="6" sm="12" >
             <LineChart />
           </Col>
         </Row>
         <br /> <br />
         <Row>
-          <Col lg="6" md="6" sm="12">
+          <Col lg="6" md="6" sm="12" >
             <BarChart />
           </Col>
-          <Col lg="6" md="6" sm="12">
+          <Col lg="6" md="6" sm="12" >
             <PieChart />
           </Col>
         </Row>
